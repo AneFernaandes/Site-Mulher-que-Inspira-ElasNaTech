@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600;700&display=swap');
+
+*{
+    margin: 0; /*para separar os elementos*/
+    padding: 0;
+    box-sizing: border-box;
+    /* para tirar a linha debaixo das palavras: */
+    text-decoration:none; 
+    outline: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #b7714f ; /* cor de fundo da pagina*/
+}
+
+section, footer {
+    padding: 54px; 0px ;
+   }
+
+p{ 
+    color:#aa7e66
+}
+.cabeçalho{
+    max-width: 1400px;
+    margin:0 auto;
+    padding: 0 5%
+}
+
+header{
+    background-position: center;
+    background-size: cover; /* para imagem ocupar toda a pagina*/
+    background-attachment: fixed; /* para fixar a foto na pagina*/
+}
+
+nav{
+    display: flex; /* deixar o menu um do lado do outro */
+    align-items: center;
+    justify-content: space-between ;
+    padding-top: 30px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+color:#c69c82;
+margin: 0 25px;
+text-transform: uppercase;
+font-size: 14px;
+display: block; 
+}
+
+.btn-sobre{
+    background-color:#5e3522  ;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #e7b29a;
+    cursor: pointer; /* serve para quando o mouse passar sinalizar a maozinha*/
+}
+.btn-saibamais{
+    background-color:#5e3522  ;
+    padding: 10px 20px;
+    margin: 50px 50px;
+    border-radius: 20px;
+    color: #e7b29a;
+    cursor: pointer; 
+    display: inline-block;
+    }
+
+
+
+
+.fundo{
+    display:flex;
+    justify-content:center;
+}
+
+.fundo-test{
+    margin:150px;
+    text-align: center;
+    padding: 0 90px;
+}
+.fundo-test h1{
+     font-size: 70px;
+    color:white ;
+    background-color:#5e3522
+}
+p {
+    font-size: 20px;
+    color: white ;
+    padding: 20px 20px;
+    margin: 0px 0px;
+    background-color:#5e3522
+    
+}
+.logoelas{
+    max-width: 180px;
+    max-height: 100px;
+    width: auto;
+    height:auto;
+}
+.rodape p{
+    font-size: 13px;
+    text-align: center;
+}
+.btn-youtube{
+    background-color:#5e3522  ;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border-radius: 20px;
+    color: #e7b29a;
+    cursor: pointer; 
+    display: inline-block;
+     
+}
+
+
